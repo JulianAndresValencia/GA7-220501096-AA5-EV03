@@ -1,0 +1,55 @@
+/* Estilos globales para el cuerpo del documento */
+body {
+    
+    margin: 0; /* Elimina el margen predeterminado */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif; /* Define la fuente para el cuerpo del documento */
+    -webkit-font-smoothing: antialiased; /* Suaviza los bordes de los caracteres en navegadores webkit */
+    -moz-osx-font-smoothing: grayscale; /* Suaviza los bordes de los caracteres en Firefox para macOS */
+}
+/* Cuerpo de la pagina */
+
+.App{
+  height: 70vh;
+text-align: center;
+}
+/* Bloque de iniciar sesion */
+.main-box{
+  height: 25vh;
+  background-color: aqua;
+  border: 1px solid rebeccapurple;
+  margin: auto;
+  max-width: 353px;
+}
+/* Bloque de pie de pagina o footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+footer p,h3{
+margin: 0;
+padding: 0;
+}
+
+/* Imagen tienda de barrio */
+img{
+  width: 10rem;
+  height: 10rem;
+}
+
+.register{
+  align-items: center;
+}
+
+@media (max-width:750px) {
+  .main-box{
+    height: 35vw;
+  }
+  
+}

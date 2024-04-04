@@ -1,0 +1,58 @@
+<!--
+  *Estructura inical del login.
+  Utiliza flexsider como libreria para animar el carrucel.
+-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style1.css" type="text/css">
+        
+    </head>
+    <body>
+        <div class="App">
+            <div>
+                <img src="img\logo_tdb.png" alt="Logotipo" _mstalt="44941" _msthash="1" >
+                <h1>MINI MERCADO - ENVITRIANON</h1>
+                <div class="main-box">
+                    <h2>Iniciar sesión</h2>
+                    <form action="autent.php" method="post">
+                        <div>
+                            <label for="nombreUsuario">Nombre de usuario:</label>
+                            <input type="text" name="username" placeholder="Ingresa nombre de usuario" required value="julian0001">
+                        </div>
+                        <div>
+                            <label for="contraseña">Contraseña:</label>
+                            <input type="password" name="password" placeholder="Ingrese contraseña" required value="julian123">
+                        </div>
+                        <button type="submit">Iniciar sesión</button>
+                    </form>
+                </div>
+                <div>
+                    <a href="register.html">Registrarse</a>
+                </div>
+                <div class="social-links">
+                    <h3 _msttexthash="588497" _msthash="8">Acceder con redes sociales:</h3>
+                    <div>
+                        <a href="https://www.facebook.com">Facebook</a>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com">Instagram</a>
+                    </div>
+                    <div>
+                        <a href="https://www.twitter.com">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Nos enorgullece servir a la comunidad con una amplia variedad de productos de calidad, desde víveres hasta artículos esenciales.</p>
+            <h3>Contacto:</h3>
+            <p>Dirección: Calle 130 # 25-32, B. El Trianón Envigado</p>
+            <p>Teléfono: (123) 456-7890</p>
+            <p>Correo electrónico: info@minimercado.com</p>
+        </footer>
+    </body>
+</html>

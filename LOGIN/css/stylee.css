@@ -1,0 +1,196 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: image-set("../img/fondo3.jpg");
+    display: block;
+    background-size: cover;
+    color: white;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0 0 0 .5vw #313131;
+    align-items: center;
+}
+body .titulo{
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 1em;
+    text-shadow: 0 0 15px 15px #ffe600;
+    background-color:#313131;
+}
+body .titulo h1{
+    line-height: 5vw;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(27, 60, 19);
+}
+@media (min-width:800px) {    
+    body .general{
+        width: 100vw;
+        display: flex;
+        height: 90vh;
+    }
+    
+    body .login{
+        position: absolute;
+        border-radius: 10px;
+        width: 100vw;
+        height: 90vh;
+    }
+
+    aside {
+        font-family: sans-serif;
+        color: rebeccapurple;
+    }
+
+    .main-box {
+        margin:5vw auto;
+        width: 20vw;
+        height: 20vw;
+        background-color: #ecf0f1;
+        box-sizing: border-box;
+        padding: 0px 2vw;
+        border: 5px solid #34495e;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px #000;
+    }
+
+    aside h1 {
+        margin: 0;
+        padding: 1vw 0 2vw 0;
+        text-align: center;
+        font-size: 2vw;
+    }
+
+    .main-box label {
+        margin: 0;
+        padding: 0;
+        height: .5vw;
+        font-weight: bold;
+        font-size: 1.2vw;
+    }
+
+    .main-box input {
+        width: 100%;
+        margin-bottom: 1vw;
+    }
+    
+    .main-box input[type="text"], input[type="password"] {
+        border: none;
+        border-bottom: .1vw solid #2c3e50;
+        outline: none;
+        background: none;
+        color: #333333;
+        font-size: 1.2vw;
+        margin-top: 1vw;
+    }
+
+    .main-box input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 3vw;
+        background: #2c3e50;
+        color: #bdc3c7;
+        font-size: 1.2vw;
+        border-radius: 2vw;
+        box-shadow: 0px 0px 5px #000;
+    }
+
+    .main-box input[type="submit"]:hover {
+        cursor: pointer;
+        background: #130f40;
+        color: #ecf0f1;
+        transition: .5s;
+    }
+
+    .main-box a {
+        text-decoration: none;
+        font-size: .8vw;
+        color: #2c3e50;
+    }
+
+    .main-box a:hover {
+        text-decoration: underline;
+    }
+}
+@media (max-width:779px){
+    
+    body .login{
+        width: 100vw;
+        margin: 0;
+        padding: 0 ;
+        font-family: sans-serif;
+        color: rebeccapurple;
+    }
+    
+    .main-box {
+        margin:5vw auto;
+        width: 20vw;
+        height: 20vw;
+        background-color: #ecf0f1;
+        box-sizing: border-box;
+        padding: 0px 2vw;
+        border: 5px solid #34495e;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px #000;
+    }
+
+    aside h1 {
+        margin: 0;
+        padding: 1vw 0 2vw 0;
+        text-align: center;
+        font-size: 2vw;
+    }
+    
+    .main-box label {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    }
+    
+    .main-box input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .main-box input[type="text"], input[type="password"] {
+        border: none;
+        border-bottom: 1px solid #2c3e50;
+        outline: none;
+        background: none;
+        color: #333333;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    
+    .main-box input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 40px;
+        background: #2c3e50;
+        color: #bdc3c7;
+        font-size: 18px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 5px #000;
+    }
+    
+    .main-box input[type="submit"]:hover {
+        cursor: pointer;
+        background: #130f40;
+        color: #ecf0f1;
+        transition: .5s;
+    }
+    
+    .main-box a {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: #2c3e50;
+    }
+    
+    .main-box a:hover {
+        text-decoration: underline;
+    }
+}
